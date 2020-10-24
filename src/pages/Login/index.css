@@ -1,0 +1,38 @@
+.page-login {
+  height: calc(100vh - 53px);
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #09C;
+  background-size: cover;
+}
+.page-login .login-wap {
+  width: 400px;
+  margin: 10% auto;
+}
+.page-login .login-box {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.page-login .ant-tabs-nav {
+  width: 100%;
+}
+.page-login .ant-tabs-tab {
+  margin: 0px;
+  width: 50%;
+  text-align: center;
+}
+.page-login .login-title {
+  padding: 20px 0px;
+  text-align: center;
+}
+.page-login .login-form {
+  padding: 20px;
+  border-radius: 5px;
+}
+.page-login .submit-btn {
+  width: 100%;
+}

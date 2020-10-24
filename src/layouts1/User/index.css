@@ -1,0 +1,29 @@
+.user-box {
+  float: right;
+  width: 242px;
+  color: #e2effc;
+}
+.user-box .ant-input-group {
+  width: 80% !important;
+  margin-top: 15px;
+}
+.user-box .ant-btn-link {
+  color: #e2effc;
+}
+.user-box .ant-btn-link:active,
+.user-box .ant-btn-link.active {
+  color: #e2effc;
+}
+.user-box .user {
+  float: left;
+  margin-right: 40px;
+}
+.user-box .login-box {
+  float: right;
+}
+.user-box .login-box a {
+  color: #e2effc;
+}
+.user-box .login-box .loginOut {
+  font-size: 20px;
+}

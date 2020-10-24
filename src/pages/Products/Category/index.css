@@ -1,0 +1,12 @@
+.ant-tree-show-line .ant-tree-switcher {
+  z-index: 0!important;
+}
+.ant-cascader-picker {
+  width: 25%;
+}
+.ant-tree {
+  font-size: 18px!important;
+}
+.ant-tree .ant-tree-switcher .ant-tree-switcher-icon {
+  font-size: 14px!important;
+}

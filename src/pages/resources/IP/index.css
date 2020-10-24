@@ -1,0 +1,14 @@
+.page-region-map {
+  width: 100%;
+  overflow: scroll;
+}
+.page-region-map .region-map {
+  table-layout: auto;
+}
+.page-region-map .region-map .box {
+  margin: 10px;
+  padding: 0px 10px;
+  line-height: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}

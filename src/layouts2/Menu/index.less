@@ -1,0 +1,87 @@
+@import '~@src/styles/theme.less';
+@baseWidth: 220px;
+.navs-wap{ 
+  position: relative;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  height: 52px;
+  width: 80px;
+  line-height: 52px;
+  ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  // 全局导航样式
+  .all-menus{
+    position: absolute;
+    z-index: 10;
+    width: 74px;
+    line-height: 52px;
+    text-align: center;
+    background-color: #157dec;
+    .icon{
+      padding: 5px 26px;
+      font-size: 20px;
+      color: #fff;
+    }
+    >.children{
+      position: absolute;
+      z-index: 100;
+      left: -416px;
+      height: calc(100vh - 108px);
+      width: @baseWidth;
+      overflow: auto;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+    &:hover{
+      background-color: #fff;
+      border: 1px solid #fff;
+      .icon{
+        color: @primary-color;
+      }
+      >.children{
+        left: 0px;
+        transition: transform .2s ease-in-out,opacity .2s ease-in-out,left .2s ease-in-out;
+      }
+    }
+    .nav3{
+      height: 36px;
+      line-height: 36px;
+      margin: 15px 0px;
+      color: #505050;
+      &.active{
+        color: @primary-color;
+        background-color: #eeeeee;
+      }
+    }
+    .ant-menu-inline .ant-menu-submenu-title{
+      text-align: left;
+    }
+    .ant-menu-sub.ant-menu-inline{
+      text-align: left;
+    }
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+      background-color: #096dd9;
+      a{
+        color: #fff;
+      }
+    }
+    .ant-menu .ant-menu-submenu > .ant-menu .ant-menu-submenu > .ant-menu{
+      text-align: left;
+    }
+  }
+}
+.ant-menu{
+  background: #f0f0f0;
+  .ant-menu-submenu > .ant-menu {
+    background-color: #fafafa;
+    .ant-menu-submenu > .ant-menu {
+      background-color: #fff;
+      
+    }
+
+  }
+}

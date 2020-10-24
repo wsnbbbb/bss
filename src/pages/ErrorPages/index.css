@@ -1,0 +1,30 @@
+.page-error {
+  height: 100%;
+  min-height: 600;
+  background: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 50px 0px;
+}
+.page-error .title {
+  font-size: 100px;
+  font-weight: bold;
+  color: #888;
+}
+@supports (-webkit-background-clip: text) {
+  .page-error .title {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(../../assets/snow.gif);
+    background-repeat: repeat;
+    opacity: 0.5;
+  }
+}
+.page-error .info {
+  padding: 20px 0px;
+  font-size: 20px;
+  color: #888;
+}
+.page-error .backBtn {
+  margin-top: 10px;
+}

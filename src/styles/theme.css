@@ -1,0 +1,22 @@
+body {
+  font-size: 14px;
+  font-style: normal;
+}
+b {
+  font-family: "PingFang Heavy" !important;
+}
+.text-primary-color {
+  color: #096dd9;
+}
+.text-link-color {
+  color: #096dd9;
+}
+.text-success-color {
+  color: #009966;
+}
+.text-warning-color {
+  color: #faad14;
+}
+.text-error-color {
+  color: #f5222d;
+}

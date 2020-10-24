@@ -1,0 +1,14 @@
+.page-tabs-wap {
+  background-color: #f5f7f9;
+}
+.page-tabs-wap .tabs {
+  display: inline-block;
+  padding: 5px;
+  margin: 10px 10px;
+  background-color: #fff;
+  font-size: 12px;
+}
+.page-tabs-wap .icon {
+  padding: 0px 0px 0px 10px;
+  color: #555;
+}

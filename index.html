@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IKGlobal业务支撑系统--BSS2.0</title>
+  <link href="/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+  <script>
+    // 用户模块
+    window.TRADING_API="http://10.2.5.226:7007";
+    window.BSS_ADMIN_URL = 'http://10.2.5.205:8082';
+    window.BSS_SSO_URL = "http://10.2.5.205:9020";
+    window.FILE_URL = "http://10.2.5.218:11001";
+    var host = window.location.origin;
+    window.LOGINURL = BSS_ADMIN_URL + '/api/user/login?redirect_uri=' + host + '/hub';
+  </script>
+  <div id="app-root"></div>
+  <script src="/dist/dll/vendor.dll.js"></script>
+  <script type="text/javascript" src="/js/app.dev.js"></script>
+</body>
+
+</html>

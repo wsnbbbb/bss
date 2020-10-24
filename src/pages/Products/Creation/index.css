@@ -1,0 +1,49 @@
+.steps-content {
+  margin-top: 16px;
+  padding: 10px 10px 30px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  background-color: #fafafa;
+  min-height: 200px;
+  padding-top: 20px;
+}
+.steps-action {
+  margin-top: 24px;
+  text-align: right;
+}
+.res-contents {
+  max-width: 1000px;
+  margin: 10px auto;
+}
+.res-contents .min-res {
+  margin: 10px 0px;
+  border-top: 1px dashed #ddd;
+}
+.res-contents .min-res .min-res-head {
+  margin: 20px 0px;
+}
+.res-contents .min-res .del-btn {
+  margin-left: 10px;
+}
+.res-contents .min-res .min-res-title {
+  padding: 0px 20px;
+  font-weight: 700;
+  color: #1890ff;
+}
+.res-contents .min-res .min-res-content {
+  width: 100%;
+  position: relative;
+  margin: 10px 0px 10px 80px;
+}
+.res-contents .min-res .min-res-content .config-title {
+  position: absolute;
+  font-weight: 700;
+  left: 0px;
+  top: 5px;
+}
+.res-contents .min-res .min-res-content .config-content {
+  padding-left: 50px;
+}
+.ant-input-number {
+  width: 200px;
+}

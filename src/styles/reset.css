@@ -1,0 +1,32 @@
+body {
+  font-family: 'Source Han Sans regular', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Sans GB W3', 'WenQuanYi Micro Hei', sans-serif;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.3s linear;
+  word-break: break-all;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+.w {
+  margin: 0px 20px;
+}
+.hide {
+  display: none;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.ant-menu-inline .ant-menu-submenu-title {
+  text-align: left;
+}

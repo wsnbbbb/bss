@@ -1,0 +1,78 @@
+.page-region-map{
+  width:100%; 
+  overflow: scroll;
+  .region-map{
+    table-layout:auto;
+    .box{
+      margin: 10px;
+      padding: 0px 10px;
+      line-height: 20px;
+      display: inline-block;
+      border: 1px solid #ccc;
+    }
+  }
+}
+.region-map{
+  border: 1px solid #ccc;
+  
+  .region-map-head{
+    padding: 0px 10px;
+    background-color: #f0f2f5;
+    line-height: 32px;
+  }
+  .region-map-body{
+    overflow-x: scroll;
+    padding: 40px;
+    min-height: 300px;
+    white-space: nowrap;
+    .box{
+      height: 32px;
+      width: 70px;
+      margin: 10px;
+      padding: 0px 10px;
+      line-height: 32px;
+      overflow: hidden;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      &.box-barrier{
+        color: red;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+.opt-tooltip-box{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  .tooltip-inner{
+    line-height: 32px;
+    border-bottom: 1px dashed #ddd;
+    &:last-child{
+      border: none;
+    }
+  }
+  
+}
+// 已购买未分配
+.cabinet-status-0{
+  background-color: #35b5eb;
+}
+// 已分配 未使用
+.cabinet-status-1{
+  background-color: #ff9600 !important;
+}
+// 已启用未分配
+.cabinet-status-2{
+  background-color: #449d44 !important;
+}
+// 已使用
+.cabinet-status-3{
+  background-color: #ec4b4b !important;
+}
+
+

@@ -1,0 +1,13 @@
+.navs-wap {
+  height: 38px;
+  line-height: 38px;
+  padding: 0px;
+  margin: 0px;
+}
+.navs-wap .nav {
+  display: inline-block;
+  position: relative;
+}
+.navs-wap .nav .children {
+  position: absolute;
+}

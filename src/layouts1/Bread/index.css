@@ -1,0 +1,11 @@
+.bread {
+  padding-left: 10px;
+  margin: 0px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.bread .icon {
+  flex: none;
+  color: #22cc22;
+  margin-right: 8px;
+}

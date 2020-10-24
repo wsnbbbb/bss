@@ -1,0 +1,35 @@
+.statistical p {
+  font-size: 16px;
+  float: left;
+  margin-right: 40px;
+  font-weight: 700;
+}
+.p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.div {
+  margin: 20px 0;
+}
+.div .span {
+  display: inline-block;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.div .span2 {
+  display: inline-block;
+  margin: 0px 48px;
+}
+.div .p1 {
+  float: left;
+  padding-left: 50px;
+  font-size: 16px;
+}
+.div .p1 .span2 {
+  display: inline-block;
+  margin: 0 20px;
+}
+.config-item {
+  padding: 10px 0px;
+}

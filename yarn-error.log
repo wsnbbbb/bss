@@ -1,0 +1,120 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Administrator\bin;F:\webDev\Git\mingw64\bin;F:\webDev\Git\usr\local\bin;F:\webDev\Git\usr\bin;F:\webDev\Git\usr\bin;F:\webDev\Git\mingw64\bin;F:\webDev\Git\usr\bin;C:\Users\Administrator\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;F:\webDev\Git\cmd;C:\Program Files\nodejs;F:\webDev\WinSCP;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jre1.8.0_231\bin;D:\java\apache-tomcat-9.0.29\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jdk1.8.0_231\jre\bin;F:\webDev\python\Scripts;F:\webDev\python;F:\webDev\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\BypassRuntm;F:\webDev\Fiddler;F:\webDev\IntelliJ IDEA 2019.2.4\bin;F:\webDev\IntelliJ IDEA Community Edition 2019.3.1\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;F:\webDev\Git\usr\bin\vendor_perl;F:\webDev\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v6\npm-ms-2.1.2-d09d1f357b443f493382a8eb3ccd183872ae6009-integrity\node_modules\ms\license.md' -> 'E:\boss\bss-admin\node_modules\@babel\core\node_modules\ms\license.md'
+
+npm manifest: 
+  {
+    "name": "bss_admin",
+    "version": "1.0.0",
+    "description": "bss-admin",
+    "main": "index.js",
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.dev.js",
+      "dll": "webpack --progress --display-error-details --display-optimization-bailout --color --profile --config ./webpack/webpack.config.dll.js"
+    },
+    "author": "l",
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+      "antd": "^4.0.2",
+      "axios": "^0.19.0",
+      "core-js": "^3.2.1",
+      "history": "^4.9.0",
+      "js-cookies": "^1.0.4",
+      "lodash": "^4.17.15",
+      "mobx": "^5.15.4",
+      "mobx-react": "^6.1.8",
+      "moment": "^2.24.0",
+      "prop-types": "^15.7.2",
+      "qs": "^6.9.1",
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0",
+      "react-loadable": "^5.5.0",
+      "react-redux": "^7.1.0",
+      "react-router-dom": "^5.0.1",
+      "react-vcode": "^1.0.4",
+      "reqwest": "^2.0.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.5.5",
+      "@babel/plugin-proposal-class-properties": "^7.5.5",
+      "@babel/plugin-proposal-decorators": "^7.4.4",
+      "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+      "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+      "@babel/plugin-transform-runtime": "^7.5.5",
+      "@babel/preset-env": "^7.5.5",
+      "@babel/preset-react": "^7.0.0",
+      "@babel/runtime": "^7.5.5",
+      "autoprefixer": "^9.6.1",
+      "babel-eslint": "8.x",
+      "babel-loader": "^8.0.6",
+      "body-parser": "^1.19.0",
+      "clean-webpack-plugin": "^3.0.0",
+      "copy-webpack-plugin": "^5.0.4",
+      "cross-env": "^7.0.2",
+      "css-loader": "^3.0.0",
+      "eslint": "^6.1.0",
+      "eslint-config-prettier": "^6.0.0",
+      "eslint-loader": "^2.2.1",
+      "eslint-plugin-prettier": "^3.1.0",
+      "eslint-plugin-react": "^7.14.3",
+      "express": "^4.17.1",
+      "extract-text-webpack-plugin": "^4.0.0-beta.0",
+      "favicons-webpack-plugin": "^0.0.9",
+      "file-loader": "^4.2.0",
+      "happypack": "^5.0.1",
+      "html-webpack-plugin": "^3.2.0",
+      "less": "^3.9.0",
+      "less-loader": "^5.0.0",
+      "mini-css-extract-plugin": "^0.8.0",
+      "mobx-react-devtools": "^6.1.1",
+      "mockjs": "^1.0.1-beta3",
+      "optimize-css-assets-webpack-plugin": "^5.0.3",
+      "postcss-loader": "^3.0.0",
+      "preload-webpack-plugin": "^3.0.0-alpha.1",
+      "prettier": "1.18.2",
+      "style-loader": "^1.0.0",
+      "sw-precache-webpack-plugin": "^0.11.5",
+      "terser-webpack-plugin": "^1.4.1",
+      "url-loader": "^2.1.0",
+      "webpack": "^4.39.2",
+      "webpack-bundle-analyzer": "^3.4.1",
+      "webpack-cli": "^3.3.6",
+      "webpack-dev-middleware": "^3.7.0",
+      "webpack-dev-server": "^3.10.3",
+      "webpack-hot-middleware": "^2.25.0",
+      "webpack-dashboard": "^1.1.1",
+      "webpack-merge": "^4.1.2",
+      "webpack-version-plugin": "^2.0.0",
+      "webstorm-disable-index": "^1.2.0",
+      "webpackbar": "^4.0.0",
+      "xml-loader": "^1.2.1"
+    },
+    "browserslist": [
+      "iOS >= 8",
+      "Android > 4.6",
+      "last 1 versions",
+      "> 2%",
+      "not dead"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

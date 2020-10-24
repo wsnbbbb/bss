@@ -1,0 +1,54 @@
+.header {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  padding: 0;
+  padding-left: 50px;
+}
+.header .logo {
+  position: absolute;
+  left: 30px;
+  width: 320px;
+}
+.header .logo .logo-img {
+  width: 175px;
+}
+.header .logo .line {
+  padding: 0px 10px 0px 15px;
+}
+.header .search-box {
+  margin: 0px 160px 0px 320px;
+}
+.header .search-box .head-input-group {
+  position: relative;
+  top: 15px;
+  float: left;
+  width: 50%;
+}
+.header .search-box .input-group-moudle {
+  float: left;
+  width: 50%;
+}
+.header .search-box .ant-input-search {
+  max-width: 360px;
+}
+.header .user-box {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.header .user-box .ant-input-group {
+  width: 80% !important;
+  margin-top: 15px;
+}
+.header .user-box .user {
+  float: right;
+  margin-right: 40px;
+}
+.header .user-box .login-box {
+  float: right;
+}
+.header .user-box .login-box .loginOut {
+  font-size: 20px;
+}
